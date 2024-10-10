@@ -25,7 +25,7 @@ public class Libro {
 
     }
     public int imprimircubierta(){
-        return this.paginas;
+        return this.paginas+5;
 
         }
 }

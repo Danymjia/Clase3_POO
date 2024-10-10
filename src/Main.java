@@ -11,18 +11,35 @@ public class Main {
         Libro libro3=new Libro("Superpoderes mentales","Tony Buzan","Planeta",272);
         Libro libro4=new Libro("En busca de la excelencia","Pablo Jacobsen","Paidós Empresa",392);
         Libro libro5=new Libro("Círculo de influencia","Cristian Arens","Paidós Empresa",144);
-        System.out.println(libro1);
 
-        libro1.imprimir();
+        Cancion cancion1=new Cancion("Situations","DaniLeigh","Brandon 'B.A.M' Hodge","3:45");
+        Cancion cancion2=new Cancion("Love`s Train","Bruno Mars","D`Mile","5:07");
+        Cancion cancion3=new Cancion("Heartbrak Anniversary","Giveon","Maneesh","3:18");
+
+        Serie serie1=new Serie("Dark","Wiedemann & Berg Television","3 Temporadas");
+        Serie serie2=new Serie("The Crown","Left Bank Pictures Sony Pictures Television","6 Temporadas");
+        Serie serie3=new Serie("El juego del calamar","Siren Pictures Inc.","2 Temporadas");
+
+
         System.out.println(libro1.imprimircubierta());
-        libro2.imprimir();
+        libro1.imprimir();
         System.out.println(libro2.imprimircubierta());
-        libro3.imprimir();
+        libro2.imprimir();
         System.out.println(libro3.imprimircubierta());
-        libro4.imprimir();
+        libro3.imprimir();
         System.out.println(libro4.imprimircubierta());
-        libro5.imprimir();
+        libro4.imprimir();
         System.out.println(libro5.imprimircubierta());
+        libro5.imprimir();
+
+        cancion1.imprimir_cancion();
+        cancion2.imprimir_cancion();
+        cancion3.imprimir_cancion();
+
+        serie1.imprimir_serie();
+        serie2.imprimir_serie();
+        serie3.imprimir_serie();
+
     }
 }
 
