@@ -7,8 +7,8 @@ public class Cancion {
     String duracion;
 
     //metodos
-    //constructor
 
+    //constructor
     public Cancion(String nombre, String cantautor, String productora, String duracion) {
         this.nombre = nombre;
         this.cantautor = cantautor;
@@ -16,12 +16,38 @@ public class Cancion {
         this.duracion = duracion;
     }
 
-    public void imprimir_cancion() {
-        System.out.println("El tìtulo es: " + this.nombre);
-        System.out.println("El autor es: " + this.cantautor);
-        System.out.println("El productor/a es: " + this.productora);
-        System.out.println("La duracion es de: " + this.duracion);
-        System.out.println("----------------------------------------------");
+    //Constructor vacio
+    public Cancion() {
+
     }
 
+    //getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCantautor() {
+        return cantautor;
+    }
+
+    public String getProductora() {
+        return productora;
+    }
+
+    public String getDuracion() {
+        return duracion;
+    }
+
+    //Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCantautor(String cantautor) {
+        this.cantautor = cantautor;
+    }
+
+    public void setProductora(String productora) {
+        this.productora = productora;
+    }
 }

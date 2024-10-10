@@ -17,10 +17,10 @@ public class Main {
         Cancion cancion3=new Cancion("Heartbrak Anniversary","Giveon","Maneesh","3:18");
 
         Serie serie1=new Serie("Dark","Wiedemann & Berg Television","3 Temporadas");
-        Serie serie2=new Serie("The Crown","Left Bank Pictures Sony Pictures Television","6 Temporadas");
+        Serie serie2=new Serie();
         Serie serie3=new Serie("El juego del calamar","Siren Pictures Inc.","2 Temporadas");
 
-
+    /*
         System.out.println(libro1.imprimircubierta());
         libro1.imprimir();
         System.out.println(libro2.imprimircubierta());
@@ -31,15 +31,15 @@ public class Main {
         libro4.imprimir();
         System.out.println(libro5.imprimircubierta());
         libro5.imprimir();
+    */
+        System.out.println(serie1.getNombre_serie());
 
-        cancion1.imprimir_cancion();
-        cancion2.imprimir_cancion();
-        cancion3.imprimir_cancion();
+        serie1.setNombre_serie("Mancos todos menos yo");
+        System.out.println(serie1.getNombre_serie());
 
-        serie1.imprimir_serie();
-        serie2.imprimir_serie();
-        serie3.imprimir_serie();
-
+        serie2.setNombre_serie("The Crown");
+        serie2.setDuracion_serie("Left Bank Pictures Sony Pictures Television");
+        serie2.setCasa_productora("6 Temporadas");
     }
 }
 
